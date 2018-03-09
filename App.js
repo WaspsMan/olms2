@@ -30,8 +30,8 @@ export default class App extends React.Component {
 
 		if (this.state.isLoadingComplete && !this.state.isLogin) {
 			return (
-        //<LoginScreen handleLogin={this.handleLogin} />
-        <RootNavigation/>
+        <LoginScreen handleLogin={this.handleLogin} />
+        //<RootNavigation/>
 			)
     } 
     return (
